@@ -1,0 +1,64 @@
+==================== 2026-06-15T20:37:49.417501Z | 019ecd01-36e6-70f3-bbb2-18572c2e48e4 ====================
+20:37:49.417802 [info ]: Installing dbt project and profile setup
+20:37:49.421548 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+20:37:49.421667 [info ]: Success Project created successfully!
+20:37:49.421707 [info ]: Info Project name: jaffle_shop
+20:37:49.421726 [info ]: Info Project directory: jaffle_shop
+20:37:49.421744 [info ]: Info Setting up your profile...
+20:37:49.421909 [info ]: Info Creating new profile...
+20:37:59.374415 [info ]: No dbt_cloud.yml found - proceeding without cloud pre-population
+20:40:36.030183 [info ]: Success Profile written to /Users/pulsaragunawardhana/.dbt/profiles.yml
+20:40:36.037654 [info ]: Validating profile inputs, adapters, and connection
+
+20:40:36.038707 [info ]: dbt-core 2.0.0-alpha.1
+20:40:36.044685 [info ]: Started loading project
+20:40:36.069777 [info ]: Loading ~/.dbt/profiles.yml
+20:40:36.078040 [info ]: Finished loading project [  0.03s]
+20:40:36.080013 [error]: [InvalidConfig (dbt1005)]: The 'postgres' adapter is not yet supported by dbt Fusion. Supported adapters: snowflake, bigquery, databricks, redshift
+20:40:36.155238 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' with 1 error [2m 47s]
+==================== 2026-06-15T20:42:10.192807Z | 019ecd05-3186-7513-9319-d438191bb2d2 ====================
+20:42:10.195188 [info ]: Installing dbt project and profile setup
+20:42:10.197655 [info ]: Warning Directory 'jaffle_shop' already exists, using 'jaffle_shop_1' instead
+20:42:10.205153 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+20:42:10.206223 [info ]: Success Project created successfully!
+20:42:10.206244 [info ]: Info Project name: jaffle_shop_1
+20:42:10.206263 [info ]: Info Project directory: jaffle_shop_1
+20:42:10.206429 [info ]: Info Setting up your profile...
+20:42:10.208568 [info ]: Loading ~/.dbt/profiles.yml
+20:42:10.216865 [info ]: Info Creating new profile...
+20:42:13.318345 [info ]: No dbt_cloud.yml found - proceeding without cloud pre-population
+20:42:49.653875 [info ]: Success Profile written to /Users/pulsaragunawardhana/.dbt/profiles.yml
+20:42:49.654932 [info ]: Validating profile inputs, adapters, and connection
+
+20:42:49.655244 [info ]: dbt-core 2.0.0-alpha.1
+20:42:49.659026 [info ]: Started loading project
+20:42:49.678785 [info ]: Loading ~/.dbt/profiles.yml
+20:42:49.686029 [info ]: Finished loading project [  0.03s]
+20:42:49.688437 [error]: [InvalidConfig (dbt1005)]: The 'postgres' adapter is not yet supported by dbt Fusion. Supported adapters: snowflake, bigquery, databricks, redshift
+20:42:49.715594 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' with 1 error [39.5s]
+==================== 2026-06-15T20:58:27.521054Z | 019ecd14-1b35-7053-85aa-e4698aac6372 ====================
+20:58:27.522918 [info ]: Installing dbt project and profile setup
+20:58:27.525050 [info ]: Warning Directory 'jaffle_shop' already exists, using 'jaffle_shop_2' instead
+20:58:27.534035 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+20:58:27.535308 [info ]: Success Project created successfully!
+20:58:27.535325 [info ]: Info Project name: jaffle_shop_2
+20:58:27.535353 [info ]: Info Project directory: jaffle_shop_2
+20:58:27.535481 [info ]: Info Setting up your profile...
+20:58:27.537748 [info ]: Loading ~/.dbt/profiles.yml
+20:58:27.546866 [info ]: Info Creating new profile...
+20:58:30.280204 [info ]: No dbt_cloud.yml found - proceeding without cloud pre-population
+20:58:45.261667 [info ]: Success Profile written to /Users/pulsaragunawardhana/.dbt/profiles.yml
+20:58:45.262583 [info ]: Validating profile inputs, adapters, and connection
+
+20:58:45.262817 [info ]: dbt-core 2.0.0-alpha.1
+20:58:45.266084 [info ]: Started loading project
+20:58:45.289290 [info ]: Loading ~/.dbt/profiles.yml
+20:58:45.294916 [info ]: Finished loading project [  0.03s]
+20:58:45.296253 [error]: [InvalidConfig (dbt1005)]: The 'postgres' adapter is not yet supported by dbt Fusion. Supported adapters: snowflake, bigquery, databricks, redshift
+20:58:45.325456 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' with 1 error [17.8s]
