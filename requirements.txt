@@ -1,2 +1,21 @@
-dbt-core==1.11.6
+dbt-core==1.11.11
+
+# shared interfaces
+dbt-adapters==1.22.10
+dbt-common==1.37.5
+dbt-extractor==0.6.0
+dbt-semantic-interfaces==0.9.0
+dbt-sl-sdk[sync]==0.13.4
+
+# adapters
+dbt-athena==1.10.1
+dbt-bigquery==1.11.1
+dbt-databricks==1.12.1
+dbt-fabric==1.9.4
 dbt-postgres==1.10.0
+dbt-redshift==1.10.1
+dbt-snowflake==1.11.5
+dbt-spark==1.10.1
+dbt-synapse==1.8.5
+dbt-teradata==1.10.2
+dbt-trino==1.10.2
