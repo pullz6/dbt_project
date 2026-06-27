@@ -1,5 +1,13 @@
 
-version: 2
+version: 3
+
+sources: 
+  - name: raw_data 
+    database: Betting
+    schema: staging 
+    tables: 
+      - name: bets
+
 
 models:
   - name: my_first_dbt_model
