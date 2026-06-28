@@ -8,8 +8,8 @@ select bet_id
     ,odds
     ,bet_type
     ,market
-    ,placed_at AT TIME ZONE 'UTC' AT TIME ZONE 'Europe/London' as placed_at
-    ,settled_at AT TIME ZONE 'UTC' AT TIME ZONE 'Europe/London' as settled_at
+    ,placed_at AT TIME ZONE 'UTC' AT TIME ZONE 'Europe/London' as placed_at_lnd
+    ,settled_at AT TIME ZONE 'UTC' AT TIME ZONE 'Europe/London' as settled_at_lnd
     ,status
     ,cash_out_amount
 from {{ source('raw_data', 'bets') }}
