@@ -4,7 +4,7 @@ version: 3
 sources: 
   - name: raw_data 
     database: Betting
-    schema: staging 
+    schema: staging
     tables: 
       - name: bets
 
