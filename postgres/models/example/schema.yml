@@ -27,3 +27,18 @@ models:
         data_tests:
           - unique
           - not_null
+  
+  - name: bets_transformed
+    description: 'Transformed bets table with timezone conversion and additional fields'
+    columns: 
+      - name: bet_id
+        description: 'Unique identifier for each bet'
+        data_tests:
+          - unique
+          - not_null
+
+      - name: user_id
+        description: 'Unique identifier for each user'
+        data_tests:
+          - not_null
+
