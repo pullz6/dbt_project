@@ -1,5 +1,5 @@
-#Starting DBT project 
-Welcome to your new dbt project!
+# Starting DBT project 
+Focusing on pstgres connector 
 
 ### Using the starter project
 
