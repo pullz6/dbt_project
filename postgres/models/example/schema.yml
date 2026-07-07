@@ -36,6 +36,12 @@ models:
         data_tests:
           - unique
           - not_null
+      
+      - name: placed_at_lnd
+        description: 'Timestamp when the bet was placed, converted to London timezone'
+        tests:
+          - check_time_0:
+              column_name2: settled_at_lnd
 
       - name: user_id
         description: 'Unique identifier for each user'
